@@ -46,11 +46,13 @@ We can list our packages inside the venv by executing the command `python -m pip
 
 ```
 (directory-name) $ python -m pip list
-novas (3.1.1.3)
-numpy (1.9.2)
-pip (7.0.3)
-requests (2.7.0)
-setuptools (16.0)
+Package  Version
+-------- -------
+asgiref  3.8.1
+Django   5.1.4
+pip      24.3.1
+sqlparse 0.5.3
+tzdata   2024.2
 ```
 
 to transfer the list as an requirements file with autoformatting we use
@@ -62,14 +64,15 @@ to obtain the following file:
 ```
 (directory-name) $ cat requirements.txt
 
-novas==3.1.1.3
-numpy==1.9.2
-requests==2.7.0
+asgiref==3.8.1
+Django==5.1.4
+sqlparse==0.5.3
+tzdata==2024.2
 ```
 5. To install our venv after activation we use the command 
 
 `pip install -r requirements.txt`
 
-6. Keep updating the file
-when addong new packages. 
+
+6. Keep updating the file when adding new packages. 
 If done manually specify version 
