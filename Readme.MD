@@ -76,3 +76,25 @@ tzdata==2024.2
 
 6. Keep updating the file when adding new packages. 
 If done manually specify version 
+
+## Initialize project
+To initialize the project the following steps where made
+
+1. Run `django-admin start project expense_manager`
+
+2.  If first start Run `python manage.py runserver`
+    the following must be printed
+    ```python
+    Watching for file changes with StatReloader
+    Performing system checks...
+
+    System check identified no issues (0 silenced).
+
+    You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+    Run 'python manage.py migrate' to apply them.
+    December 13, 2024 - 19:18:26
+    Django version 5.1.4, using settings 'expense_manager.settings'
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CTRL-BREAK.
+    ```
+
