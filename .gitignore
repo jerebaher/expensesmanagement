@@ -33,10 +33,10 @@ build/
 *.env
 *.local
 
-lib/
-lib64/
-bin/
-pyenv.cfg
+lib
+lib64
+bin
+pyvenv.cfg
 
 .coverage
 nosetests.xml
