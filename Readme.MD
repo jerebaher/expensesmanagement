@@ -18,7 +18,7 @@ python -m venv <directory_name>
 On linux
 
 ```linux
-<directory-name>/bin/activate.<shell-extension>
+source <directory-name>/bin/activate.<shell-extension>
 ```
 
 On Windows
