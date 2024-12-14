@@ -78,7 +78,7 @@ tzdata==2024.2
 If done manually specify version 
 
 ## Initialize project
-To initialize the project the following steps where made
+To initialize the project the following steps were made
 
 1. Run `django-admin start project expense_manager`
 
