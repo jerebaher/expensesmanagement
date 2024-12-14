@@ -15,15 +15,15 @@ python -m venv <directory_name>
 
 2. After creation we activate the enviroment inside our terminal.
 
-On linux
+On Linux
 
-```linux
+```Linux
 source <directory-name>/bin/activate.<shell-extension>
 ```
 
 On Windows
 
-```windows
+```Windows
 <directory-name>\Scripts\activate.<user_shell>
 ```
 
