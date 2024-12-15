@@ -5,11 +5,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Este mensaje se renderizó bajo el contexto recibido en la request</h1>
-    {% if whatis %}
-    <p>{{ whatis }}</p>
-    {%else%}
-    <p>No hay contexto {{ whatis }}</p>
-    {% endif %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Renderiza el formulario como párrafos -->
+        <button type="submit">Agregar Gasto</button>
+    </form>
 </body>
 </html>
